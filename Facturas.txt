@@ -1,0 +1,16 @@
+----------------------FACTURA CLINICA HUELLITAS-----------------------------
+Nombre del dueno de la mascota 1: scooby
+Nombre de la mascota 1: Gabriel
+ID de la mascota 1: 4324
+Tipo de mascota 1: Perro
+Servicio para la mascota 1: Rayos x
+Precio para la mascota 1: 300.00
+
+----------------------FACTURA CLINICA HUELLITAS-----------------------------
+Nombre del dueno de la mascota 2: Garfield
+Nombre de la mascota 2: Nico
+ID de la mascota 2: 54654
+Tipo de mascota 2: Gato
+Servicio para la mascota 2: Peluqueria
+Precio para la mascota 2: 10.00
+
