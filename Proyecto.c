@@ -25,6 +25,9 @@ int menu(int *op, char nombre[][50], int id[], char tipo[][50], int edad[], char
         case 5:
             mostrarFacturas();
             break;
+        case 6:
+        printf("cual es el nombre al cual gusta cambiar?\n");
+        scanf("%s", nombre[indice]);
         default:
             return *op;
     }
@@ -134,13 +137,13 @@ int main(int argc, char *argv[]) {
     printf("---------------------------------Bienvenido a la clinica Huellitas------------------------------------\n");
     printf("Por favor decida qué desea realizar:\n");
     do {
-        printf("\n 1. Ingresar mascota\n 2. Ingresar servicio\n 3. Facturacion\n 4. Servicios disponibles\n 5. Mostrar facturas\n 6. Salir\n");
+        printf("\n 1. Ingresar mascota\n 2. Ingresar servicio\n 3. Facturacion\n 4. Servicios disponibles\n 5. Mostrar facturas\n 6. Cambiar nombre de mascota\n 7. Salir");
         scanf("%d", &op);
         n = menu(&op, nombre, id, tipo, edad, nombred, precio, s, indice);
         if (op == 1) {
             indice++;
         }
-    } while (n != 6);
+    } while (n != 7);
     printf("\nMuchas gracias por usar nuestros servicios.\n");
     return 0;
 }
